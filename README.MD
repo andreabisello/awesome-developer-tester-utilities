@@ -29,6 +29,22 @@ Set the cron. Remember to end the file with a empty line
 
 You should open a dedicated terminal in witch you run this command when you set a crontab execution to check if execution is registered.
 
+**How to install another language (Useful if your python script use Locale)
+
+	sudo apt install language-pack-it-base language-pack-it
+
+**How to get operative system date
+
+	date
+	
+**How to set ubuntu timezone
+
+	 sudo timedatectl set-timezone Europe/Rome
+
+**How to get current timezone
+	
+	timedatectl
+
 
 ### WINDOWS
 
