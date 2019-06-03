@@ -21,7 +21,12 @@ Set some path in the script to permits to find binary position (not mandatory)
 
 Set the cron. Remember to end the file with a empty line
 
-	10 00    * * *   root    cd /home/ubuntu/cost-controlling-probes && python3 script.py
+	12 30    * * *   root    cd /home/ubuntu/cost-controlling-probes && python3 script.py
+
+Remember 
+
+* the format : min hour day month day of the week
+* to give some minutes for crontab reload. avoid scheduling just a few minutes after the current "date".
 
 **How to get crontab modifications**
 
